@@ -42,7 +42,7 @@ $( document ).ready(function(){
 			var left   =[];
 			var top    =[];
 			var color  =[];
-		//console.log(data);
+		//console.log(data); hi
 			for(var i=0 ; i<data.length; i++){
 				name[i]=(data[i].innerText);
 				height[i] = (data[i].offsetHeight);
