@@ -1,0 +1,283 @@
+<section id="page-id-admin-dashboard" class="main" admindashboardpageelements>
+        <script type="text/javascript" src="../js/map.js"></script>
+            <div class="inner_wrap">
+                <div class="agv-wrap">
+                    <div class="magoo"></div>
+                    <div class="fudd"></div>
+                    <div class="brown"></div>
+                </div>
+                <section class="plant_wrap">
+
+               
+                   
+                    <a class="df2 resizable" href="" ng-dblclick="showCellData('DF2')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                DF2
+                             </div>
+                         </div>
+                    </a>
+                    <a class="df3 resizable" href=""  ng-dblclick="showCellData('DF3')" onmousedown="isKeyPressed(event)" >
+                        <div class="inner_wrap">
+                            <div class="inner"  >
+                                DF3
+                             </div>
+                         </div>
+                    </a>
+                    <a class="df4 resizable" href="" ng-dblclick="showCellData('DF4')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                DF4
+                             </div>
+                         </div>
+                    </a>
+                    <a class="df5 resizable" href="" ng-dblclick="showCellData('DF5')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                DF5
+                             </div>
+                         </div>
+                    </a>
+                    <a class="df6 resizable" href="" ng-dblclick="showCellData('DF6')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                DF6
+                             </div>
+                         </div>
+                    </a>
+                    <a class="ar4 resizable" href="" ng-dblclick="showCellData('AR4')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                AR4
+                             </div>
+                         </div>
+                    </a>
+                    <a class="ar5 resizable" href="" ng-dblclick="showCellData('AR5')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                AR5
+                             </div>
+                         </div>
+                    </a>
+                    <a class="ar7 resizable" href="" ng-dblclick="showCellData('AR7')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                AR7
+                             </div>
+                         </div>
+                    </a>
+                    <a class="ar8 resizable" href="" ng-dblclick="showCellData('AR8')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                AR8
+                             </div>
+                         </div>
+                    </a>
+                    <a class="ar9 resizable" href="" ng-dblclick="showCellData('AR9')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                AR9
+                             </div>
+                         </div>
+                    </a>
+                    <a class="ar10 resizable" href="" ng-dblclick="showCellData('AR10')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                AR10
+                             </div>
+                         </div>
+                    </a>
+                    <a class="rq1 resizable" href="" ng-dblclick="showCellData('RQ1')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                RQ1
+                             </div>
+                         </div>
+                    </a>
+                    <a class="rq2 resizable" href="" ng-dblclick="showCellData('RQ2')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                RQ2
+                             </div>
+                         </div>
+                    </a>
+                    <a class="am1 resizable" href="" ng-dblclick="showCellData('AM1')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                AM1
+                             </div>
+                         </div>
+                    </a>
+                    <a class="am2 resizable" href="" ng-dblclick="showCellData('AM2')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                AM2
+                             </div>
+                         </div>
+                    </a>
+                    <a class="coe resizable" href="" ng-dblclick="showCellData('COE')" onmousedown="isKeyPressed(event)">
+                        <div class="inner_wrap">
+                            <div class="inner">
+                                COE
+                             </div>
+                         </div>
+                    </a>
+                </section>
+            </div>
+            <div>
+                 <button class="btn btn-primary" id="change_layout">Change Layout</button>
+                 <button class="btn btn-primary" id="confirm_layout">Confirm Layout</button>
+                 <button class="btn btn-primary" id="add_machine">Schedule Addition of Machine</button>
+                 <button class="btn btn-primary" id="delete_machine">Shedule Deletion of Machine</button>
+                 <button class="btn btn-primary" id="generate_timeline">Generate Timeline</button>
+                 
+                 <form id="form1">
+                   <label>ENTER DATE OF LAYOUT:</label></br><input type="date" id="date_value">
+                   <input type="submit" value="Submit" id ="submit">
+                 </form>
+                 
+                 <form id="form2">
+                   <label>ENTER NAME OF NEW MACHINE :</label><input type="text" id="name_value">
+
+                   <label>ENTER STATE:</label>
+                   <select id="state_value">
+                      <option>PPAP</option>
+                      <option>SOP</option>
+                   </select>
+                  <input type="submit" value="Submit" id="name_submit">
+                 </form>
+                 <!-- <form id="form3">
+                   ENTER STATE OF NEW MACHINE :<input type="text" id="name_value">
+                   <input type="submit" value="Submit" id="name_submit">
+                 </form>
+ -->
+                   <div id="timeline">
+                   <div id="datebox" ></div> 
+                   </div>
+            </div>
+            <section class="plant_info_wrap">
+                <a href="" class="close-btn" ng-Dblclick="closeCellData()">&times;</a>
+                <div class="pphBarLabel">
+                    <span class="vertical-text">PPH</span>
+                </div>
+                <div class="pphContainer">
+                    <div class="barContainer">
+                        <div class="barComplete">
+                            <span class="barNumber">{{ pphPercentage }}<span>%</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ppgBarLabel">
+                    <span class="vertical-text">Goal</span>
+                </div>
+                <div class="ppgContainer">
+                    <span class="barNumber">{{ pphGoal }}</span>
+                </div>
+                <div class="ppaBarLabel">
+                    <span class="vertical-text">Act</span>
+                </div>
+                <div class="ppaContainer">
+                    <span class="barNumber">{{ pph }}</span>
+                </div>
+                <div class="scrapBarLabel">
+                    <span class="vertical-text">Scrap</span>
+                </div>
+                <div class="scrapContainer">
+                    <div class="barContainer">
+                        <div class="barComplete">
+                            <span class="barNumber">{{ scrapPercentage }}<span>%</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="goodBadContainer">
+                    <span class="barLabelGood">Good</span>
+                    <span class="barLabelGoodTriangle"></span>
+                    <span class="goodPartValue">{{ goodPartCounter }}</span>
+
+                    <div class="goodBadChartContainer">
+                        <canvas id="goodBadChart" width="130" height="130"></canvas>
+                    </div>
+
+                    <span class="barLabelBad">Bad</span>
+                    <span class="barLabelBadTriangle"></span>
+                    <span class="badPartValue">{{ badPartCounter }}</span>
+                </div>
+                <div class="statusContainer">
+                    <span class="infoLabel">Cell Status:</span>
+                    <span class="infoValue">{{ cellStatus }}</span>
+                </div>
+                <div class="cellContainer">
+                    <span class="infoLabel">Cell ID:</span>
+                    <span class="infoValue">{{ runningCell }}</span>
+                </div>
+                <div class="partContainer">
+                    <span class="infoLabel">Running Part:</span>
+                    <span class="infoValue">{{ runningPart }}</span>
+                </div>
+
+                <div class="historyHoursContainer">
+                    <div class="hoursContainer clearfix">
+                        <div class="verticalAxis">
+                            <ul>
+                                <li>200</li>
+                                <li>175</li>
+                                <li>150</li>
+                                <li>125</li>
+                                <li>100</li>
+                                <li>75</li>
+                                <li>50</li>
+                                <li>25</li>
+                            </ul>
+                        </div>
+                        <div class="hoursGraph">
+                            <span class="gridLine"></span>
+                            <span class="gridLine"></span>
+                            <span class="gridLine"></span>
+                            <span class="gridLine"></span>
+                            <span class="gridLine"></span>
+                            <span class="gridLine"></span>
+                            <span class="gridLine"></span>
+                            <span class="gridLine"></span>
+                        </div>
+                        <div class="horizontalAxis">
+                            <ul class="clearfix">
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                                <li>7</li>
+                                <li>8</li>
+                                <li>9</li>
+                                <li>10</li>
+                                <li>11</li>
+                                <li>12</li>
+                                <li>13</li>
+                                <li>14</li>
+                                <li>15</li>
+                                <li>16</li>
+                                <li>17</li>
+                                <li>18</li>
+                                <li>19</li>
+                                <li>20</li>
+                                <li>21</li>
+                                <li>22</li>
+                                <li>23</li>
+                                <li>24</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+<script>
+function isKeyPressed(event) {
+    if (event.ctrlKey) {
+        console.log($(event.target));
+        $(event.target).remove();
+            }
+}
+</script>
+</section>
+</section>

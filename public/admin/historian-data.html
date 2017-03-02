@@ -1,0 +1,101 @@
+	<div id="page-id-historian-data" historiandatapageelements>
+
+        <section class="search-bar">
+            <div>
+                <form>
+                    <label for="cellSelect">Select Cell:</label>
+                    <select id="cellSelect">
+                        <option ng-repeat="cell in cells" id="cell-{{cell.id}}" value="{{cell.id}}">{{cell.name}}</option>
+                    </select>
+                </form>
+            </div>
+        </section>
+
+
+		<div class="historyContainer">
+            <div class="hoursContainer clearfix">
+                <div class="title">
+                    <h2>PPH</h2>
+                </div>
+                <div class="verticalAxis">
+                    <ul>
+                        <li>200</li>
+                        <li>175</li>
+                        <li>150</li>
+                        <li>125</li>
+                        <li>100</li>
+                        <li>75</li>
+                        <li>50</li>
+                        <li>25</li>
+                    </ul>
+                </div>
+                <div class="hoursGraph">
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                </div>
+                <div class="horizontalAxis">
+                    <ul class="clearfix">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li>22</li>
+                        <li>23</li>
+                        <li>24</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="secondsContainer clearfix">
+                <div class="title">
+                    <h2>PPM</h2>
+                </div>
+                <div class="verticalAxis">
+                    <ul>
+                        <li>60</li>
+                        <li>45</li>
+                        <li>30</li>
+                        <li>15</li>
+                    </ul>
+                </div>
+                <div class="secondsGraph">
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                    <span class="gridLine"></span>
+                </div>
+                <div class="horizontalAxis">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+	</div>

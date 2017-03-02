@@ -1,0 +1,105 @@
+        <section id="page-id-create-process-verification" class="main" createprocessverificationpageelements>
+
+            <div class="pageContainer">
+                <div class="selectCellContainer">
+                    <h3>Step One</h3>
+                    <label for="processCell">Choose Cell:</label>
+                    <select id="processCell" name="processCell">
+                        <option ng-repeat="cell in cells" value="{{ cell.id }}">{{ cell.name }}</option>
+                    </select>
+                </div>
+
+                <div class="selectPartContainer">
+                    <h3>Step Two</h3>
+                    <label for="processPart">Choose Part:</label>
+                    <select id="processPart" name="processPart">
+                        <option ng-repeat="part in parts" value="{{ part.id }}">{{ part.name }}</option>
+                    </select>
+                </div>
+
+                <div class="processVerificationContainer clearfix">
+                    <div class="leftContainer">
+                        <div class="addProcessContainer">
+                            <h3>Add Process</h3>
+                            <div class="questionTextContainer">
+                                <label for="processQuestion">Question:</label>
+                                <input type="text" id="processQuestion" name="processQuestion">
+                            </div>
+                            <div class="selectTypeContainer">
+                                <label for="processType">Answer Type:</label>
+                                <select id="processType" name="processType">
+                                    <option value="1">---</option>
+                                    <option value="text">Text</option>
+                                    <option value="radio">Yes/No</option>
+                                </select>
+                            </div>
+                            <a href="" class="btn btn-blue" ng-click="addProcess()">Add Process</a>
+                        </div>
+
+                        <div class="copyProcessContainer">
+                            <h3>Copy Process List</h3>
+                            <div class="copyProcess">
+                                <div class="copyCellContainer">
+                                    <label for="copyProcessCell">Cell:</label>
+                                    <select id="copyProcessCell" name="copyProcessCell">
+                                        <option ng-repeat="cell in cells" value="{{ cell.id }}">{{ cell.name }}</option>
+                                    </select>
+                                </div>
+                                <div class="copyPartContainer">
+                                    <label for="copyProcessPart">Part:</label>
+                                    <select id="copyProcessPart" name="copyProcessPart">
+                                        <option ng-repeat="part in parts" value="{{ part.id }}">{{ part.name }}</option>
+                                    </select>
+                                </div>
+                                <a href="#" class="btn btn-blue" ng-click="copyProcess()">Copy Process</a>
+                            </div>
+                            <a href="#" class="btn btn-blue show-options-btn" ng-click="showOptions()">Show Options</a>
+                        </div>
+                    </div>
+
+                    <div class="processVerificationListContainer">
+                        <h3>Process Verification List</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Order</th>
+                                    <th>Type</th>
+                                    <th>Question</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody class="processSortable">
+                                <tr id="{{ process.id }}" ng-repeat="process in processes">
+                                    <td class="processHandle"></td>
+                                    <td>{{ process.question_type }}</td>
+                                    <td>{{ process.question }}</td>
+                                    <td><a href="" class="btn btn-blue" data="{{ process.id }}" ng-click="showEditProcess(process.id)">Edit</a></td>
+                                    <td><a href="" class="btn btn-red" data="{{ process.id }}" ng-click="deleteProcess(process.id)">Delete</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="editProcessContainer">
+                <h3>Edit Process</h3>
+                <div class="questionTextContainer">
+                    <label for="editProcessQuestion">Question:</label>
+                    <input type="text" id="editProcessQuestion" name="editProcessQuestion">
+                </div>
+                <div class="selectTypeContainer">
+                    <label for="editProcessType">Choose Answer Type:</label>
+                    <select id="editProcessType" name="editProcessType">
+                        <option value="1">---</option>
+                        <option value="text">Text</option>
+                        <option value="radio">Radio</option>
+                    </select>
+                </div>
+                <input type="hidden" id="editProcessID" value="">
+                <a href="" class="btn btn-blue" ng-click="editProcess()">Edit Process</a>
+                <a href="" class="btn btn-red" ng-click="cancelEditProcess()">Cancel</a>
+            </div>
+
+        </section>

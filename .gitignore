@@ -1,0 +1,7 @@
+operator/start - Copy.bat
+*.log.*
+*.log
+*.jpg
+*.png
+node_modules/
+monitor/

@@ -1,0 +1,36 @@
+        <section id="page-id-view-downtime-reasons" class="main" viewdowntimereasonspageelements>
+
+            <section class="search-bar">
+                <div>
+                    <form>
+                        <label for="cellSelect">Viewing Cell:</label>
+                        <select name="cellSelect" id="cellSelect">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </form>
+                </div>
+            </section>
+
+            <div id="view-downtime-reasons">
+                <h3>Downtime Reason History</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Cell</th>
+                            <th>Downtime Reason</th>
+                            <th>Downtime Duration</th>
+                            <th>Timestamp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="reason-{{ reason.id }}" ng-repeat="reason in downtimeHistory">
+                            <td>{{ reason.cell_name }}</td>
+                            <td>{{ reason.reason }}</td>
+                            <td>{{ reason.duration }}</td>
+                            <td>{{ reason.timestamp }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>

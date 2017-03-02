@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5308"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   width="611.38574"
+   height="453.54443"
+   sodipodi:docname="PlantLayout.svg">
+  <metadata
+     id="metadata5314">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5312">
+    <linearGradient
+       id="linearGradient6092">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop6094" />
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1;"
+         offset="1"
+         id="stop6096" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6402"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6440"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6480"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6518"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6556"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6594"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6632"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6670"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6708"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6746"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6784"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6822"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6860"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6898"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6936"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient6974"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient7012"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient7050"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient7088"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient7126"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient7164"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10233"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10235"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10237"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10239"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10241"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10243"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10245"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10247"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10249"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10251"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10253"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10255"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10257"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10259"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10261"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10263"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10265"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10267"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6092"
+       id="linearGradient10269"
+       gradientUnits="userSpaceOnUse"
+       x1="55.735634"
+       y1="129.90958"
+       x2="354.33328"
+       y2="129.90958" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="752"
+     id="namedview5310"
+     showgrid="false"
+     inkscape:zoom="2.0813837"
+     inkscape:cx="78.725985"
+     inkscape:cy="276.0178"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:current-layer="g0000" />
+  <g
+     id="g0000"
+     transform="translate(-0.9513109,-6.4932971)">
+    <g
+       id="g7185"
+       transform="translate(0,-30.748775)">
+      <path
+         style="fill:#112d87;fill-opacity:0.08444447;stroke:none;display:inline"
+         d="m 85.895131,105.9176 243.295879,-68.164791 191.91011,0 0,149.962551 -71.31086,0 0,82.84644 89.13858,0 0,-14.68165 57.6779,0 0,14.68165 15.73034,0 0,75.50562 -31.46068,0 0,-16.77903 -58.72659,0 0,161.49813 -195.05618,0 0,-10.48689 -205.54307,0 0,-68.1648 -120.5992491,0 0,-53.48314 93.3333331,0 0,-48.2397 -10.486891,0 0,-204.49439 z"
+         id="path5828"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5834"
+         width="30.411983"
+         height="231.7603"
+         x="120.59925"
+         y="149.96255" />
+      <rect
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5836"
+         width="70.262177"
+         height="26.217228"
+         x="151.01125"
+         y="355.50562" />
+      <rect
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5838"
+         width="32.509365"
+         height="166.74158"
+         x="160.44943"
+         y="180.37453" />
+      <rect
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5840"
+         width="191.91011"
+         height="33.558052"
+         x="219.17603"
+         y="157.30338" />
+      <rect
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5842"
+         width="37.752808"
+         height="32.509365"
+         x="278.95132"
+         y="110.11236" />
+      <path
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.02147388px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 220.27024,98.576779 193.67546,0 0,-60.82397 -84.2543,0 -110.51537,31.460674 z"
+         id="path5844"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5846"
+         width="132.13483"
+         height="47.19101"
+         x="445.69287"
+         y="270.5618" />
+      <rect
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5848"
+         width="42.996254"
+         height="39.850185"
+         x="383.82022"
+         y="276.85394" />
+      <rect
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5850"
+         width="81.797752"
+         height="39.588017"
+         x="423.67041"
+         y="62.13483" />
+      <rect
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5852"
+         width="34.606743"
+         height="11.535581"
+         x="469.81274"
+         y="101.72285" />
+      <rect
+         style="opacity:0.3;fill:#00c0ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5854"
+         width="98.576782"
+         height="14.681648"
+         x="419.47565"
+         y="38.801498" />
+      <rect
+         style="opacity:0.3;fill:#00c0ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5856"
+         width="83.895134"
+         height="67.116104"
+         x="429.96255"
+         y="119.55056" />
+      <rect
+         style="opacity:0.3;fill:#00c0ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5858"
+         width="95.43071"
+         height="35.65543"
+         x="317.75281"
+         y="110.11236" />
+      <rect
+         style="opacity:0.3;fill:#00c0ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5860"
+         width="44.044945"
+         height="37.752808"
+         x="222.3221"
+         y="109.06367" />
+      <rect
+         style="opacity:0.3;fill:#00c0ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5862"
+         width="56.629211"
+         height="26.217226"
+         x="153.10861"
+         y="108.01498" />
+      <rect
+         style="opacity:0.3;fill:#00c0ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5864"
+         width="122.69663"
+         height="78.651688"
+         x="375.43073"
+         y="407.94006" />
+      <rect
+         style="opacity:0.3;fill:#00c0ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5866"
+         width="18.876404"
+         height="40.898876"
+         x="348.16479"
+         y="201.34831" />
+      <rect
+         style="opacity:0.3;fill:#00c0ff;fill-opacity:1;stroke:none;display:inline"
+         id="rect5868"
+         width="92.284645"
+         height="10.486892"
+         x="354.45694"
+         y="250.6367" />
+      <rect
+         style="opacity:0.3;fill:#00ffda;fill-opacity:1;stroke:none;display:inline"
+         id="rect5870"
+         width="35.65543"
+         height="191.91011"
+         x="83.895134"
+         y="116.4045" />
+      <rect
+         style="fill:#00ffda;fill-opacity:1;stroke:none;display:inline"
+         id="rect5872"
+         width="38.801498"
+         height="19.925093"
+         x="160.44943"
+         y="153.10861" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5874"
+         width="20.711611"
+         height="33.295879"
+         x="170.41197"
+         y="-223.63297"
+         transform="scale(1,-1)"
+         class="feature" />
+      <rect
+         transform="scale(1,-1)"
+         y="-257.97754"
+         x="170.41197"
+         height="32.509361"
+         width="20.711611"
+         id="rect5876"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         class="feature" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5878"
+         width="20.711611"
+         height="22.022472"
+         x="170.41197"
+         y="-284.45694"
+         transform="scale(1,-1)"
+         class="feature" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5880"
+         width="20.711611"
+         height="30.149811"
+         x="170.41197"
+         y="-318.53934"
+         transform="scale(1,-1)"
+         class="feature" />
+      <rect
+         y="320.89886"
+         x="192.95882"
+         height="26.217228"
+         width="19.925098"
+         id="rect5884"
+         style="opacity:0.3;fill:#0000ff;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         transform="scale(1,-1)"
+         y="-342.65921"
+         x="160.71159"
+         height="19.925093"
+         width="49.288387"
+         id="rect5882"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         class="feature" />
+      <rect
+         transform="scale(1,-1)"
+         y="-245.13109"
+         x="124.53182"
+         height="22.022472"
+         width="20.711611"
+         id="rect5886"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         class="feature" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5888"
+         width="20.711611"
+         height="22.022472"
+         x="124.79399"
+         y="-220.74907"
+         transform="scale(1,-1)"
+         class="feature" />
+      <rect
+         transform="scale(1,-1)"
+         y="-196.62921"
+         x="124.79399"
+         height="22.022472"
+         width="20.711611"
+         id="rect5890"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         class="feature" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5892"
+         width="20.711611"
+         height="22.022472"
+         x="124.79399"
+         y="-173.03371"
+         transform="scale(1,-1)"
+         class="feature" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         y="-278.42694"
+         x="-180.8989"
+         height="44.307114"
+         width="20.711611"
+         id="rect5894"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         class="feature" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5896"
+         width="27.003746"
+         height="44.307114"
+         x="-186.92885"
+         y="-340.29959"
+         transform="matrix(0,-1,-1,0,0,0)"
+         class="feature" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         y="-402.69659"
+         x="-186.92885"
+         height="44.307114"
+         width="27.003746"
+         id="rect5898"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         class="feature" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5900"
+         width="29.101124"
+         height="28.576777"
+         x="-140.78653"
+         y="-314.60672"
+         transform="matrix(0,-1,-1,0,0,0)"
+         class="feature" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         y="-323.25839"
+         x="-97.003761"
+         height="28.576777"
+         width="29.101124"
+         id="rect5902"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         class="feature" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5904"
+         width="35.393257"
+         height="14.419473"
+         x="-97.26593"
+         y="-355.76773"
+         transform="matrix(0,-1,-1,0,0,0)"
+         class="feature" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         y="-386.44186"
+         x="-96.479416"
+         height="19.400745"
+         width="18.352058"
+         id="rect5906"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         class="feature" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5908"
+         width="18.352058"
+         height="19.400745"
+         x="-65.280914"
+         y="-386.17969"
+         transform="matrix(0,-1,-1,0,0,0)"
+         class="feature" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         id="rect5910"
+         width="18.352058"
+         height="19.400745"
+         x="-96.479416"
+         y="-411.61041"
+         transform="matrix(0,-1,-1,0,0,0)"
+         class="feature" />
+      <rect
+         transform="matrix(0,-1,-1,0,0,0)"
+         y="-411.34824"
+         x="-65.280914"
+         height="19.400745"
+         width="18.352058"
+         id="rect5912"
+         style="fill:#00ff00;fill-opacity:1;stroke:none;display:inline"
+         class="feature" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.00392157;stroke:none"
+         d="m 157.22673,199.95667 0,23.72595 36.69075,0 0,-25.81942 -36.69075,0 z"
+         id="path11211"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="DF5"
+       transform="matrix(0.1,0,0,0.1,154.96951,199.40012)">
+      <g
+         id="g6446"
+         style="display:inline">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="rect6448"
+           width="306.25403"
+           height="94.916504"
+           x="51.907463"
+           y="82.451332"
+           ry="29.6614"
+           rx="29.306622" />
+        <rect
+           rx="28.573956"
+           ry="26.695259"
+           y="87.197159"
+           x="55.735634"
+           height="85.42485"
+           width="298.59766"
+           id="rect6450"
+           style="fill:url(#linearGradient10233);fill-opacity:1;stroke:none" />
+        <rect
+           rx="27.84129"
+           ry="23.72912"
+           y="91.942986"
+           x="59.563812"
+           height="75.933205"
+           width="290.94135"
+           id="rect6452"
+           style="fill:#001247;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         id="g6454">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="164.81186"
+           y="112.85427"
+           id="text6456"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6458"
+             x="164.81186"
+             y="112.85427">DF5  35548</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6460"
+           y="128.85428"
+           x="88.768906"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="128.85428"
+             x="88.768906"
+             id="tspan6462"
+             sodipodi:role="line">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="113.85728"
+           y="142.85426"
+           id="text6464"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6466"
+             x="113.85728"
+             y="142.85426">PPH Act <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6468">170</tspan> Scrap <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6470">10% </tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6472"
+           y="156.85426"
+           x="138.5941"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="156.85426"
+             x="138.5941"
+             id="tspan6474"
+             sodipodi:role="line">Good <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6476">100</tspan>  Bad <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6478">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,154.96951,163.40012)"
+       id="DF6">
+      <g
+         style="display:inline"
+         id="g6484">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect6486"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10235);fill-opacity:1;stroke:none"
+           id="rect6488"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect6490"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g6492">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6494"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan6496"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text6498"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6500"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6502"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan6504"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan6506"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan6508"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text6510"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6512"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan6514"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan6516"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="AR10"
+       transform="matrix(0.1,0,0,0.1,154.96951,229.40012)">
+      <g
+         id="g6522"
+         style="display:inline">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="rect6524"
+           width="306.25403"
+           height="94.916504"
+           x="51.907463"
+           y="82.451332"
+           ry="29.6614"
+           rx="29.306622" />
+        <rect
+           rx="28.573956"
+           ry="26.695259"
+           y="87.197159"
+           x="55.735634"
+           height="85.42485"
+           width="298.59766"
+           id="rect6526"
+           style="fill:url(#linearGradient10237);fill-opacity:1;stroke:none" />
+        <rect
+           rx="27.84129"
+           ry="23.72912"
+           y="91.942986"
+           x="59.563812"
+           height="75.933205"
+           width="290.94135"
+           id="rect6528"
+           style="fill:#001247;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         id="g6530">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="164.81186"
+           y="112.85427"
+           id="text6532"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6534"
+             x="164.81186"
+             y="112.85427">DF5  35548</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6536"
+           y="128.85428"
+           x="88.768906"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="128.85428"
+             x="88.768906"
+             id="tspan6538"
+             sodipodi:role="line">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="113.85728"
+           y="142.85426"
+           id="text6540"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6542"
+             x="113.85728"
+             y="142.85426">PPH Act <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6544">170</tspan> Scrap <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6546">10% </tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6548"
+           y="156.85426"
+           x="138.5941"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="156.85426"
+             x="138.5941"
+             id="tspan6550"
+             sodipodi:role="line">Good <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6552">100</tspan>  Bad <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6554">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,154.96951,261.40012)"
+       id="DF4">
+      <g
+         style="display:inline"
+         id="g6560">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect6562"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10239);fill-opacity:1;stroke:none"
+           id="rect6564"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect6566"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g6568">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6570"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan6572"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text6574"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6576"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6578"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan6580"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan6582"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan6584"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text6586"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6588"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan6590"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan6592"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="AR9"
+       transform="matrix(0.1,0,0,0.1,162.96951,297.40012)">
+      <g
+         id="g6598"
+         style="display:inline">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="rect6600"
+           width="306.25403"
+           height="94.916504"
+           x="51.907463"
+           y="82.451332"
+           ry="29.6614"
+           rx="29.306622" />
+        <rect
+           rx="28.573956"
+           ry="26.695259"
+           y="87.197159"
+           x="55.735634"
+           height="85.42485"
+           width="298.59766"
+           id="rect6602"
+           style="fill:url(#linearGradient10241);fill-opacity:1;stroke:none" />
+        <rect
+           rx="27.84129"
+           ry="23.72912"
+           y="91.942986"
+           x="59.563812"
+           height="75.933205"
+           width="290.94135"
+           id="rect6604"
+           style="fill:#001247;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         id="g6606">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="164.81186"
+           y="112.85427"
+           id="text6608"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6610"
+             x="164.81186"
+             y="112.85427">DF5  35548</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6612"
+           y="128.85428"
+           x="88.768906"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="128.85428"
+             x="88.768906"
+             id="tspan6614"
+             sodipodi:role="line">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="113.85728"
+           y="142.85426"
+           id="text6616"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6618"
+             x="113.85728"
+             y="142.85426">PPH Act <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6620">170</tspan> Scrap <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6622">10% </tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6624"
+           y="156.85426"
+           x="138.5941"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="156.85426"
+             x="138.5941"
+             id="tspan6626"
+             sodipodi:role="line">Good <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6628">100</tspan>  Bad <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6630">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,114.96951,189.40012)"
+       id="g6634">
+      <g
+         style="display:inline"
+         id="g6636">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect6638"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10243);fill-opacity:1;stroke:none"
+           id="rect6640"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect6642"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g6644">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6646"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan6648"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text6650"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6652"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6654"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan6656"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan6658"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan6660"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text6662"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6664"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan6666"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan6668"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="g6672"
+       transform="matrix(0.1,0,0,0.1,114.96951,165.40012)">
+      <g
+         id="g6674"
+         style="display:inline">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="rect6676"
+           width="306.25403"
+           height="94.916504"
+           x="51.907463"
+           y="82.451332"
+           ry="29.6614"
+           rx="29.306622" />
+        <rect
+           rx="28.573956"
+           ry="26.695259"
+           y="87.197159"
+           x="55.735634"
+           height="85.42485"
+           width="298.59766"
+           id="rect6678"
+           style="fill:url(#linearGradient10245);fill-opacity:1;stroke:none" />
+        <rect
+           rx="27.84129"
+           ry="23.72912"
+           y="91.942986"
+           x="59.563812"
+           height="75.933205"
+           width="290.94135"
+           id="rect6680"
+           style="fill:#001247;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         id="g6682">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="164.81186"
+           y="112.85427"
+           id="text6684"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6686"
+             x="164.81186"
+             y="112.85427">DF5  35548</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6688"
+           y="128.85428"
+           x="88.768906"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="128.85428"
+             x="88.768906"
+             id="tspan6690"
+             sodipodi:role="line">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="113.85728"
+           y="142.85426"
+           id="text6692"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6694"
+             x="113.85728"
+             y="142.85426">PPH Act <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6696">170</tspan> Scrap <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6698">10% </tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6700"
+           y="156.85426"
+           x="138.5941"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="156.85426"
+             x="138.5941"
+             id="tspan6702"
+             sodipodi:role="line">Good <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6704">100</tspan>  Bad <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6706">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,114.96951,143.40012)"
+       id="g6710">
+      <g
+         style="display:inline"
+         id="g6712">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect6714"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10247);fill-opacity:1;stroke:none"
+           id="rect6716"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect6718"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g6720">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6722"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan6724"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text6726"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6728"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6730"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan6732"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan6734"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan6736"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text6738"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6740"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan6742"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan6744"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="AR4"
+       transform="matrix(0.1,0,0,0.1,114.96951,119.40012)">
+      <g
+         id="g6750"
+         style="display:inline">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="rect6752"
+           width="306.25403"
+           height="94.916504"
+           x="51.907463"
+           y="82.451332"
+           ry="29.6614"
+           rx="29.306622" />
+        <rect
+           rx="28.573956"
+           ry="26.695259"
+           y="87.197159"
+           x="55.735634"
+           height="85.42485"
+           width="298.59766"
+           id="rect6754"
+           style="fill:url(#linearGradient10249);fill-opacity:1;stroke:none" />
+        <rect
+           rx="27.84129"
+           ry="23.72912"
+           y="91.942986"
+           x="59.563812"
+           height="75.933205"
+           width="290.94135"
+           id="rect6756"
+           style="fill:#001247;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         id="g6758">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="164.81186"
+           y="112.85427"
+           id="text6760"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6762"
+             x="164.81186"
+             y="112.85427">DF5  35548</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6764"
+           y="128.85428"
+           x="88.768906"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="128.85428"
+             x="88.768906"
+             id="tspan6766"
+             sodipodi:role="line">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="113.85728"
+           y="142.85426"
+           id="text6768"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6770"
+             x="113.85728"
+             y="142.85426">PPH Act <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6772">170</tspan> Scrap <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6774">10% </tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6776"
+           y="156.85426"
+           x="138.5941"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="156.85426"
+             x="138.5941"
+             id="tspan6778"
+             sodipodi:role="line">Good <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6780">100</tspan>  Bad <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6782">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,234.96951,139.40012)"
+       id="DF1">
+      <g
+         style="display:inline"
+         id="g6788">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect6790"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10251);fill-opacity:1;stroke:none"
+           id="rect6792"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect6794"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g6796">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6798"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan6800"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text6802"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6804"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6806"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan6808"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan6810"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan6812"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text6814"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6816"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan6818"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan6820"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="g6824"
+       transform="matrix(0.1,0,0,0.1,294.96951,139.40012)">
+      <g
+         id="g6826"
+         style="display:inline">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="rect6828"
+           width="306.25403"
+           height="94.916504"
+           x="51.907463"
+           y="82.451332"
+           ry="29.6614"
+           rx="29.306622" />
+        <rect
+           rx="28.573956"
+           ry="26.695259"
+           y="87.197159"
+           x="55.735634"
+           height="85.42485"
+           width="298.59766"
+           id="rect6830"
+           style="fill:url(#linearGradient10253);fill-opacity:1;stroke:none" />
+        <rect
+           rx="27.84129"
+           ry="23.72912"
+           y="91.942986"
+           x="59.563812"
+           height="75.933205"
+           width="290.94135"
+           id="rect6832"
+           style="fill:#001247;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         id="g6834">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="164.81186"
+           y="112.85427"
+           id="text6836"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6838"
+             x="164.81186"
+             y="112.85427">DF5  35548</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6840"
+           y="128.85428"
+           x="88.768906"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="128.85428"
+             x="88.768906"
+             id="tspan6842"
+             sodipodi:role="line">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="113.85728"
+           y="142.85426"
+           id="text6844"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6846"
+             x="113.85728"
+             y="142.85426">PPH Act <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6848">170</tspan> Scrap <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6850">10% </tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6852"
+           y="156.85426"
+           x="138.5941"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="156.85426"
+             x="138.5941"
+             id="tspan6854"
+             sodipodi:role="line">Good <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6856">100</tspan>  Bad <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6858">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,356.96951,139.40012)"
+       id="g6862">
+      <g
+         style="display:inline"
+         id="g6864">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect6866"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10255);fill-opacity:1;stroke:none"
+           id="rect6868"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect6870"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g6872">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6874"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan6876"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text6878"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6880"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6882"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan6884"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan6886"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan6888"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text6890"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6892"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan6894"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan6896"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="g6900"
+       transform="matrix(0.1,0,0,0.1,276.96951,83.400125)">
+      <g
+         id="g6902"
+         style="display:inline">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="rect6904"
+           width="306.25403"
+           height="94.916504"
+           x="51.907463"
+           y="82.451332"
+           ry="29.6614"
+           rx="29.306622" />
+        <rect
+           rx="28.573956"
+           ry="26.695259"
+           y="87.197159"
+           x="55.735634"
+           height="85.42485"
+           width="298.59766"
+           id="rect6906"
+           style="fill:url(#linearGradient10257);fill-opacity:1;stroke:none" />
+        <rect
+           rx="27.84129"
+           ry="23.72912"
+           y="91.942986"
+           x="59.563812"
+           height="75.933205"
+           width="290.94135"
+           id="rect6908"
+           style="fill:#001247;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         id="g6910">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="164.81186"
+           y="112.85427"
+           id="text6912"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6914"
+             x="164.81186"
+             y="112.85427">DF5  35548</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6916"
+           y="128.85428"
+           x="88.768906"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="128.85428"
+             x="88.768906"
+             id="tspan6918"
+             sodipodi:role="line">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="113.85728"
+           y="142.85426"
+           id="text6920"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6922"
+             x="113.85728"
+             y="142.85426">PPH Act <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6924">170</tspan> Scrap <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6926">10% </tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6928"
+           y="156.85426"
+           x="138.5941"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="156.85426"
+             x="138.5941"
+             id="tspan6930"
+             sodipodi:role="line">Good <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan6932">100</tspan>  Bad <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan6934">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,288.96951,39.400125)"
+       id="g6938">
+      <g
+         style="display:inline"
+         id="g6940">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect6942"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10259);fill-opacity:1;stroke:none"
+           id="rect6944"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect6946"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g6948">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6950"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan6952"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text6954"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6956"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6958"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan6960"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan6962"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan6964"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text6966"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6968"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan6970"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan6972"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="g6976"
+       transform="matrix(0.1,0,0,0.1,326.96951,35.400125)">
+      <g
+         id="g6978"
+         style="display:inline">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="rect6980"
+           width="306.25403"
+           height="94.916504"
+           x="51.907463"
+           y="82.451332"
+           ry="29.6614"
+           rx="29.306622" />
+        <rect
+           rx="28.573956"
+           ry="26.695259"
+           y="87.197159"
+           x="55.735634"
+           height="85.42485"
+           width="298.59766"
+           id="rect6982"
+           style="fill:url(#linearGradient10261);fill-opacity:1;stroke:none" />
+        <rect
+           rx="27.84129"
+           ry="23.72912"
+           y="91.942986"
+           x="59.563812"
+           height="75.933205"
+           width="290.94135"
+           id="rect6984"
+           style="fill:#001247;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         id="g6986">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="164.81186"
+           y="112.85427"
+           id="text6988"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6990"
+             x="164.81186"
+             y="112.85427">DF5  35548</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6992"
+           y="128.85428"
+           x="88.768906"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="128.85428"
+             x="88.768906"
+             id="tspan6994"
+             sodipodi:role="line">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="113.85728"
+           y="142.85426"
+           id="text6996"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6998"
+             x="113.85728"
+             y="142.85426">PPH Act <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan7000">170</tspan> Scrap <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan7002">10% </tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text7004"
+           y="156.85426"
+           x="138.5941"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="156.85426"
+             x="138.5941"
+             id="tspan7006"
+             sodipodi:role="line">Good <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan7008">100</tspan>  Bad <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan7010">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,356.96951,49.400125)"
+       id="g7014">
+      <g
+         style="display:inline"
+         id="g7016">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect7018"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10263);fill-opacity:1;stroke:none"
+           id="rect7020"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect7022"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g7024">
+        <text
+           sodipodi:linespacing="125%"
+           id="text7026"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan7028"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text7030"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7032"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text7034"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan7036"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan7038"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan7040"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text7042"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7044"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan7046"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan7048"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       id="g7052"
+       transform="matrix(0.1,0,0,0.1,354.96951,7.4001248)">
+      <g
+         id="g7054"
+         style="display:inline">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="rect7056"
+           width="306.25403"
+           height="94.916504"
+           x="51.907463"
+           y="82.451332"
+           ry="29.6614"
+           rx="29.306622" />
+        <rect
+           rx="28.573956"
+           ry="26.695259"
+           y="87.197159"
+           x="55.735634"
+           height="85.42485"
+           width="298.59766"
+           id="rect7058"
+           style="fill:url(#linearGradient10265);fill-opacity:1;stroke:none" />
+        <rect
+           rx="27.84129"
+           ry="23.72912"
+           y="91.942986"
+           x="59.563812"
+           height="75.933205"
+           width="290.94135"
+           id="rect7060"
+           style="fill:#001247;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         id="g7062">
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="164.81186"
+           y="112.85427"
+           id="text7064"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7066"
+             x="164.81186"
+             y="112.85427">DF5  35548</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text7068"
+           y="128.85428"
+           x="88.768906"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="128.85428"
+             x="88.768906"
+             id="tspan7070"
+             sodipodi:role="line">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="113.85728"
+           y="142.85426"
+           id="text7072"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7074"
+             x="113.85728"
+             y="142.85426">PPH Act <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan7076">170</tspan> Scrap <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan7078">10% </tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text7080"
+           y="156.85426"
+           x="138.5941"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="156.85426"
+             x="138.5941"
+             id="tspan7082"
+             sodipodi:role="line">Good <tspan
+   style="fill:#00ff00;fill-opacity:1"
+   id="tspan7084">100</tspan>  Bad <tspan
+   style="fill:#ff0000;fill-opacity:1"
+   id="tspan7086">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,380.96951,19.400125)"
+       id="g7090">
+      <g
+         style="display:inline"
+         id="g7092">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect7094"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10267);fill-opacity:1;stroke:none"
+           id="rect7096"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect7098"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g7100">
+        <text
+           sodipodi:linespacing="125%"
+           id="text7102"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan7104"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text7106"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7108"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text7110"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan7112"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan7114"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan7116"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text7118"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7120"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan7122"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan7124"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.1,0,0,0.1,380.96951,39.400125)"
+       id="g7128">
+      <g
+         style="display:inline"
+         id="g7130">
+        <rect
+           rx="29.306622"
+           ry="29.6614"
+           y="82.451332"
+           x="51.907463"
+           height="94.916504"
+           width="306.25403"
+           id="rect7132"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:url(#linearGradient10269);fill-opacity:1;stroke:none"
+           id="rect7134"
+           width="298.59766"
+           height="85.42485"
+           x="55.735634"
+           y="87.197159"
+           ry="26.695259"
+           rx="28.573956" />
+        <rect
+           style="fill:#001247;fill-opacity:1;stroke:none"
+           id="rect7136"
+           width="290.94135"
+           height="75.933205"
+           x="59.563812"
+           y="91.942986"
+           ry="23.72912"
+           rx="27.84129" />
+      </g>
+      <g
+         id="g7138">
+        <text
+           sodipodi:linespacing="125%"
+           id="text7140"
+           y="112.85427"
+           x="164.81186"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="112.85427"
+             x="164.81186"
+             id="tspan7142"
+             sodipodi:role="line">DF5  35548</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="88.768906"
+           y="128.85428"
+           id="text7144"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7146"
+             x="88.768906"
+             y="128.85428">PPH Goal 200  PPH Mach 100</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text7148"
+           y="142.85426"
+           x="113.85728"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           xml:space="preserve"><tspan
+             y="142.85426"
+             x="113.85728"
+             id="tspan7150"
+             sodipodi:role="line">PPH Act <tspan
+   id="tspan7152"
+   style="fill:#00ff00;fill-opacity:1">170</tspan> Scrap <tspan
+   id="tspan7154"
+   style="fill:#ff0000;fill-opacity:1">10% </tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff8000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+           x="138.5941"
+           y="156.85426"
+           id="text7156"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7158"
+             x="138.5941"
+             y="156.85426">Good <tspan
+   id="tspan7160"
+   style="fill:#00ff00;fill-opacity:1">100</tspan>  Bad <tspan
+   id="tspan7162"
+   style="fill:#ff0000;fill-opacity:1">10 </tspan></tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none"
+       d="m 155.90619,167.19118 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       id="path11797"
+       inkscape:connector-curvature="0"
+       class="cell" />
+    <path
+       class="cell"
+       inkscape:connector-curvature="0"
+       id="path11799"
+       d="m 157.1261,205.19118 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none"
+       d="m 155.90619,235.19118 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       id="path11801"
+       inkscape:connector-curvature="0"
+       class="cell" />
+    <path
+       class="cell"
+       inkscape:connector-curvature="0"
+       id="path11803"
+       d="m 155.90619,267.19118 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none"
+       d="m 163.90619,303.19118 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       id="path11805"
+       inkscape:connector-curvature="0"
+       class="cell" />
+    <path
+       class="cell"
+       inkscape:connector-curvature="0"
+       id="path11807"
+       d="m 236.94232,144.28597 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none"
+       d="m 296.94232,144.28597 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       id="path11809"
+       inkscape:connector-curvature="0"
+       class="cell" />
+    <path
+       class="cell"
+       inkscape:connector-curvature="0"
+       id="path11811"
+       d="m 358.94232,144.28597 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none"
+       d="m 278.76623,88.60876 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       id="path11813"
+       inkscape:connector-curvature="0"
+       class="cell" />
+    <path
+       class="cell"
+       inkscape:connector-curvature="0"
+       id="path11815"
+       d="m 290.99648,44.443967 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none"
+       d="m 116.37568,194.60426 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       id="path11817"
+       inkscape:connector-curvature="0"
+       class="cell" />
+    <path
+       class="cell"
+       inkscape:connector-curvature="0"
+       id="path11819"
+       d="m 116.37568,170.60426 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none" />
+    <path
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none"
+       d="m 116.37568,146.60426 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       id="path11821"
+       inkscape:connector-curvature="0"
+       class="cell" />
+    <path
+       class="cell"
+       inkscape:connector-curvature="0"
+       id="path11823"
+       d="m 116.37568,122.60426 38.04967,0 0,24.4605 -39.40859,0 0,-24.4605 z"
+       style="fill:#ffffff;fill-opacity:0.00392157;stroke:none" />
+  </g>
+</svg>

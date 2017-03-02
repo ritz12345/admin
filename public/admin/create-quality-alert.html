@@ -1,0 +1,38 @@
+        <section id="page-id-create-quality-alert" class="main" createqualityalertpageelements>
+
+            <div id="add-new-quality-alert">
+                <h3>Add Quality Alert</h3>
+                <!--<form id="add-new-user" action="/user_image_upload" method="post" enctype="multipart/form-data">-->
+                <form id="add-quality-alert">
+                    <div id="add-quality-alert-image">
+                        <label for="image">Upload Image Example:</label>
+                        <div id="quality-alert-placeholder"><img src="../images/users/default-user.png"></div>
+                        <input type="file" accept="image/*" id="image" ng-file-select ng-file-change="upload($files)">
+                    </div>
+                    <div id="add-quality-alert-cell">
+                        <label for="quality-alert-cell">Cell</label>
+                        <select id="quality-alert-cell" name="box-cell">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </div>
+                    <div id="add-quality-alert-part">
+                        <label for="quality-alert-part">Part</label>
+                        <select id="quality-alert-part" name="quality-alert-part">
+                            <option ng-repeat="part in parts | orderBy: 'name'" value="{{ part.id }}">{{ part.name }}</option>
+                        </select>
+                    </div>
+                    <div id="quality-alert-datetime">
+                        <label for="quality-alert-end-datetime">Quality Alert Expiry Date</label>
+                        <input id="quality-alert-end-datetime" name="quality-alert-end-datetime" type="text" placeholder="Choose Date and Time...">
+                    </div>
+                    <div id="quality-alert-description">
+                        <label for="quality-alert-text">Quality Alert Description</label>
+                        <textarea id="quality-alert-text" name="quality-alert-text" placeholder="Enter Description..." required></textarea>
+                    </div>
+                    <div class="spacer">
+                        <input type="submit" class="btn btn-blue" ng-click="handleQualityAlertSubmit()" value="Save Alert">
+                    </div>
+                </form>
+            </div>
+
+        </section>

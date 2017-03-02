@@ -1,0 +1,161 @@
+        <section id="page-id-part-hourly-rate" class="main" parthourlyratelements>
+
+            <section id="add-box-schedule">
+                <h3>Add New Box Rate</h3>
+                <form ng-submit="handlePartRateSubmit()">
+                    <div>
+                        <label class="thin-label" for="box-part">Part</label>
+                        <select id="box-part" name="box-part">
+                            <option ng-repeat="part in parentParts | orderBy:'name'" value="{{ part.id }}">{{ part.name }}</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="wide-label" for="box-quantity">Rate</label>
+                        <input type="number" id="input-rate" name="input-rate" placeholder="Hourly Rate" required>
+                    </div>
+                    
+                    <div>
+                        <label class="thin-label" for="box-cell">Cell</label>
+                        <select id="box-cell" name="box-cell">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </div>
+                    
+                    <!--<div>
+                        <label class="wide-label" for="box-comment">Comment</label>
+                        <input type="text" id="box-comment" name="box-comment" placeholder="Box Comment">
+                    </div>-->
+                    
+                    <div>
+                        <button type="submit" class="btn btn-blue">Add New Part Rate</button>
+                    </div>
+                </form>
+                <span class="spacer"></span>
+            </section>
+
+            <section class="search-bar">
+                <div>
+                    <form>
+                        <label for="cellSelect">Viewing Hourly Part Rates by Cell:</label>
+                        <select name="cellSelect" id="cellSelect">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </form>
+                </div>
+            </section>
+
+            <section id="box-schedule">
+                <div id="box-{{ box.id }}" data-boxid="{{box.id}}" class="boxContainer" ng-repeat="box in cellSchedule">
+                    <!--div class="sortable-handle"><img src="/images/arrow.svg" alt="sortable handle"></div>-->
+                    <h3>Part: {{ box.name }}</h3><br>
+                    <h3>Rate:   {{ box.rate }}</h3>
+                    <span class="box-comment-display">{{ box.comment }}</span>
+                    <input type="text" name="boxRate" class="box-comment-edit"/>
+                    <!--<a href="" class="btn btn-grey adminEditComment" role="button" data="{{ box.id }}" ng-click="adminEditComment(box.id)">Edit Comment</a>-->
+                    <a href="" class="btn btn-grey adminAddComment" role="button" data="{{ box.id }}" ng-click="adminAddComment(box.id)">Edit Rate</a>
+                    <a href="" class="btn btn-grey adminSaveComment" role="button" data="{{ box.id }}" ng-click="adminSaveComment(box.id)">Save New Rate</a>
+
+                    <!-- Display the completed stats on right of screen -->
+                    <!--<section class="box-schedule-user">
+                        <div>
+                            <span class="box-schedule-box completed" ng-repeat="n in range(1, box.consumed)"></span>
+                            <span class="box-schedule-box" ng-repeat="n in range(box.consumed + 1, box.quantity)"></span>
+                        </div>
+                        <div id="box-schedule-completed">
+                            <h4>Completed</h4>
+                            <span class="box-consumed">{{ box.consumed }}</span> of <span class="box-quantity">{{ box.quantity }}</span>
+                        </div>
+                    </section>-->
+
+                    <!-- Plus, Minus, and Complete boxes on bottom of row-->
+                    <!--<section class="box-schedule-admin">
+                        <div>
+                            <a href="" class="btn btn-grey" role="button" data="{{ box.id }}" ng-click="adminAddBox(box.id)">&plus;</a>
+                            <a href="" class="btn btn-grey" role="button" data="{{ box.id }} {{ box.consumed }}" ng-click="adminRemoveBox(box.id, box.consumed, box.quantity)">&minus;</a>
+                            <a href="" class="btn btn-blue adminCompleteBox" role="button" data="{{ box.id }}" ng-click="adminCompleteBox(box.id)">Complete Order</a>
+                        </div>
+                    </section>-->
+                    <span class="spacer"></span>
+                </div>
+            </section>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div id="page-id-part-hourly-rate" parthourlyratelements>
+
+    <!-- INSERT A NEW RATE ->
+    <section class="main">
+        <section id="part-management">
+            <form ng-submit="handleHourlyRateSubmit()">
+                <div>
+                    <label class="thin-label" for="box-part">Part</label>
+                    <select id="rate-part" name="box-part">
+                        <option ng-repeat="part in parentParts | orderBy:'name'" value="{{ part.id }}">{{ part.name }}</option>
+                    </select>
+                </div>
+     
+                <div>
+                    <label class="thin-label" for="box-cell">Cell</label>
+                    <select id="rate-cell" name="box-cell">
+                        <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class"thin-label" for="add-part-search">New Rate</label>
+                    <input id="part-rate" type="text" placeholder="New Hourly Rate">
+                    <button type="submit" class="btn btn-blue">Add New Hourly Rate</button>
+                </div>
+            </form>
+        </section>
+    </section>
+
+    <!-- SEARCH FOR A SPECIFIC CELL ->
+    <section class="search-bar">
+        <div>
+            <form>
+            <label for="cellSelect">Update Rates By Cell</label>
+                <select name="cellSelect" id="cellSelect">
+                    <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                </select>
+            </form>
+        </div>
+    </section>
+
+    <!-- UPDATE THE HOURLY RATE ->
+    <section id="box-schedule">
+                <div id="box-{{ box.id }}" data-boxid="{{box.id}}" class="boxContainer" ng-repeat="box in cellPartRate">
+                    <h3>{{ box.cell_name }}: {{ box.name }}</h3>
+                    <span class="box-comment-display">{{ box.comment }}</span>
+                    <input type="text" name="boxComment" class="box-comment-edit"/>
+                    <a href="" class="btn btn-grey adminEditComment" role="button" data="{{ box.id }}" ng-click="adminEditRate(box.id)">Edit Rate</a>
+                    <!--<a href="" class="btn btn-grey adminAddComment" role="button" data="{{ box.id }}" ng-click="adminUpdateRate(box.id)">Update Rate</a>->
+                    <a href="" class="btn btn-grey adminSaveComment" role="button" data="{{ box.id }}" ng-click="adminSaveRate(box.id)">Save New Rate</a>
+
+                    <!--<section class="box-schedule-user">
+                        <div>
+                            <span class="box-schedule-box completed" ng-repeat="n in range(1, box.consumed)"></span>
+                            <span class="box-schedule-box" ng-repeat="n in range(box.consumed + 1, box.quantity)"></span>
+                        </div>
+                        <div id="box-schedule-completed">
+                            <h4>Completed</h4>
+                            <span class="box-consumed">{{ box.consumed }}</span> of <span class="box-quantity">{{ box.quantity }}</span>
+                        </div>
+                    </section>
+                    ->
+                    <span class="spacer"></span>
+                </div>
+            </section>
+</div>-->

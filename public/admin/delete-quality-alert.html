@@ -1,0 +1,76 @@
+        <section id="page-id-delete-quality-alert" class="main" deletequalityalertpageelements>
+
+            <div id="delete-quality-alerts">
+                <section class="search-bar">
+                    <div>
+                        <form>
+                            <label for="search-field">Search</label>
+                            <input type="search" id="search-field" ng-model="search" placeholder="Search Quality Alerts...">
+                        </form>
+                    </div>
+                </section>
+                <h3>Quality Alerts</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Cell</th>
+                            <th>Part</th>
+                            <th>Expires</th>
+                            <th class="quality-alert-description">Description</th>
+                            <th>Image</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="alert-{{ alert.id }}" ng-repeat="alert in qualityAlerts | filter:search">
+                            <td>{{ alert.cell_name }}</td>
+                            <td>{{ alert.part_number }}</td>
+                            <td>{{ alert.expires }}</td>
+                            <td class="quality-alert-description">{{ alert.description }}</td>
+                            <td><span class="zoom-in" oc-modal-open="'{{ alert.image_path }}'"><img ng-src="..{{ alert.image_path }}" alt="Quality Alert Image"></span></td>
+                            <td><a href="" class="btn btn-blue" data="{{ alert.id }}" ng-click="editQualityAlert(alert.id)">Edit</a></td>
+                            <td><a href="" class="btn btn-red" data="{{ alert.id }}" ng-click="deleteQualityAlert(alert.id)">Delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="editQualityAlertRow">
+                <h3>Edit Quality Alert</h3>
+                <form id="add-quality-alert">
+                    <div id="add-quality-alert-image">
+                        <label for="image">Upload Image Example:</label>
+                        <div id="quality-alert-placeholder"><img id="quality-alert-edit-image" src="../images/users/default-user.png"></div>
+                        <input type="file" accept="image/*" id="image" ng-file-select ng-file-change="upload($files)">
+                        <input type="hidden" id="quality-alert-original-image" value="">
+                    </div>
+                    <div id="add-quality-alert-cell">
+                        <label for="quality-alert-edit-cell">Cell</label>
+                        <select id="quality-alert-edit-cell" name="quality-alert-edit-cell">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </div>
+                    <div id="add-quality-alert-part">
+                        <label for="quality-alert-edit-part">Part</label>
+                        <select id="quality-alert-edit-part" name="quality-alert-edit-part">
+                            <option ng-repeat="part in parts | orderBy: 'name'" value="{{ part.id }}">{{ part.name }}</option>
+                        </select>
+                    </div>
+                    <div id="quality-alert-datetime">
+                        <label for="quality-alert-edit-datetime">Quality Alert Expiry Date</label>
+                        <input id="quality-alert-edit-datetime" name="quality-alert-edit-datetime" type="text" placeholder="Choose Date and Time...">
+                    </div>
+                    <div id="quality-alert-description">
+                        <label for="quality-alert-edit-text">Quality Alert Description</label>
+                        <textarea id="quality-alert-edit-text" name="quality-alert-edit-text" placeholder="Enter Description..." required></textarea>
+                    </div>
+                    <div class="spacer">
+                        <input type="hidden" id="quality-alert-id" value="">
+                        <input type="submit" class="btn btn-blue" ng-click="saveQualityAlert()" value="Save Alert">
+                        <a href="" class="btn btn-red" ng-click="cancelEditQualityAlert()">Cancel</a>
+                    </div>
+                </form>
+            </div>
+
+        </section>

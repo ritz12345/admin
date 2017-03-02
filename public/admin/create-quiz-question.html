@@ -1,0 +1,72 @@
+        <section id="page-id-create-quiz" class="main" createquizquestionpageelements>
+
+            <div id="createQuizQuestions">
+                <h3>Add Quiz Question</h3>
+                <form ng-submit="handleQuizSubmit()">
+                    <div>
+                        <label for="quizQuestionCategory">Category</label>
+                        <select id="quizQuestionCategory" name="quizQuestionCategory">
+                            <option value="part-specific">Part-Specific</option>
+                            <option value="cell-safety">Cell Safety</option>
+                            <option value="part-cell-specific">Part-Cell-Specific</option>
+                        </select>
+                    </div>
+                    <div id="showQuizPart">
+                        <label for="quizQuestionPart">Part</label>
+                        <select id="quizQuestionPart" name="quizQuestionPart">
+                            <option ng-repeat="part in parts | orderBy: 'name'" value="{{ part.id }}">{{ part.name }}</option>
+                        </select>
+                    </div>
+                    <div id="showQuizCell">
+                        <label for="quizQuestionCell">Cell</label>
+                        <select id="quizQuestionCell" name="quizQuestionCell">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="quizQuestionType">Type</label>
+                        <select id="quizQuestionType" name="quizQuestionType">
+                            <option value="text">Text</option>
+                            <option value="image">Image</option>
+                        </select>
+                    </div>
+                    <div id="quizQuestionContainer">
+                        <label for="quizQuestion">Question</label>
+                        <input type="text" id="quizQuestion" name="quizQuestion" required>
+                    </div>
+                    <div id="add-new-question-image">
+                        <div id="question-image-placeholder"><img src="../images/users/default-user.png"></div>
+                        <input type="file" accept="image/*" id="image" ng-file-select ng-file-change="upload($files)">
+                    </div>
+                    <div>
+                        <label for="quizAnswer1">Answer 1</label>
+                        <input type="text" id="quizAnswer1" name="quizAnswer1" required>
+                    </div>
+                    <div>
+                        <label for="quizAnswer2">Answer 2</label>
+                        <input type="text" id="quizAnswer2" name="quizAnswer2" required>
+                    </div>
+                    <div>
+                        <label for="quizAnswer3">Answer 3</label>
+                        <input type="text" id="quizAnswer3" name="quizAnswer3" required>
+                    </div>
+                    <div>
+                        <label for="quizAnswer4">Answer 4</label>
+                        <input type="text" id="quizAnswer4" name="quizAnswer4" required>
+                    </div>
+                    <div>
+                        <label for="quizCorrectAnswer">Correct Answer</label>
+                        <select id="quizCorrectAnswer" name="quizCorrectAnswer">
+                            <option value="1">Answer 1</option>
+                            <option value="2">Answer 2</option>
+                            <option value="3">Answer 3</option>
+                            <option value="4">Answer 4</option>
+                        </select>
+                    </div>
+                    <div class="add-quiz-question-button">
+                        <button type="submit" class="btn btn-blue">Create Quiz Question</button>
+                    </div>
+                </form>
+            </div>
+
+        </section>

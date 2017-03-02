@@ -1,0 +1,66 @@
+        <section id="page-id-create-downtime-reasons" class="main" createdowntimereasonspageelements>
+
+            <section class="search-bar">
+                <div>
+                    <form>
+                        <label for="cellSelect">Viewing Cell:</label>
+                        <select name="cellSelect" id="cellSelect">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </form>
+                </div>
+            </section>
+
+            <div id="create-downtime-reasons" class="clearfix">
+                <div class="manage-downtime-reasons">
+                    <div class="add-reasons-form">
+                        <h3>Add Downtime Reason</h3>
+                        <form>
+                            <input type="hidden" id="reasonID" value="">
+                            <div>
+                                <label for="downtimeReason">Downtime Reason:</label>
+                                <textarea id="downtimeReason" name="downtimeReason"></textarea>
+                            </div>
+                            <div>
+                                <a href="" class="btn btn-blue" role="button" ng-click="addDowntimeReason()">Add Downtime Reason</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="reasons-table">
+                        <h3>Downtime Reasons</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Cell</th>
+                                    <th>Downtime Reason</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="reason-{{ reason.id }}" ng-repeat="reason in downtimeReasons">
+                                    <td>{{ reason.cell_name }}</td>
+                                    <td class="downtime-reason">{{ reason.reason }}</td>
+                                    <td><a href="" class="btn btn-blue" role="button" data="{{ reason.id }}" ng-click="openEditDowntimeReason(reason.id)">Edit</a></td>
+                                    <td><a href="" class="btn btn-red" role="button" data="{{ reason.id }}" ng-click="deleteDowntimeReason(reason.id)">Delete</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="edit-downtime-reason">
+                    <h3>Edit Downtime Reasons</h3>
+                    <form>
+                        <div>
+                            <label for="editDowntimeReason">Downtime Reason:</label>
+                            <textarea id="editDowntimeReason" name="editDowntimeReason"></textarea>
+                        </div>
+                        <div>
+                            <a href="" class="btn btn-blue" role="button" ng-click="editDowntimeReason()">Edit Downtime Reason</a>
+                            <a href="" class="btn btn-red" role="button" ng-click="cancelEditDowntimeReason()">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>

@@ -1,0 +1,102 @@
+        <div id="page-id-user-roles" userrolespageelements>
+
+            <div class="editUserRolesContainer">
+                <section class="search-bar">
+                    <div>
+                        <form>
+                            <label for="search-field">Search</label>
+                            <input type="search" id="search-field" ng-model="search" placeholder="Users...">
+                        </form>
+                    </div>
+                </section>
+
+                <section class="main">
+
+                    <div id="user-{{user.id}}" ng-repeat="user in users | filter: search | limitTo: 12" class="user-container">
+                        <div class="user-image">
+                            <img ng-src="..{{user.image_path}}" alt="{{user.name}}">
+                        </div>
+                        <div class="user-information">
+                            <p class="user-name">{{ user.name }}</p>
+                            <p class="user-position">{{ user.privilege }}</p>
+                        </div>
+                        <div class="user-buttons">
+                            <a href="" class="btn btn-blue user-buttons-permissions" role="button" data="{{ user.id }} {{ user.name }}" ng-click="showUserPermissions(user.id, user.name)">Edit User</a>
+                            <a href="" class="btn btn-red" role="button" data="{{ user.id }} {{ user.name }}" ng-click="deleteUser(user.id, user.name)">Delete</a>
+                        </div>
+                    </div>
+
+                    <div class="spacer"></div>
+                </section>
+            </div>
+
+            <div class="editUserPermissionsContainer" class="clearfix">
+                <h3>Edit User</h3>
+                <h4 class="userPermissionsName">{{selectedUser.name}}</h4>
+                <div class="editUserImage">
+                    <h5>Edit User Image</h5>
+                    <div id="user-image-placeholder"><img src="../images/users/default-user.png"></div>
+                    <input type="file" accept="image/*" id="image" ng-file-select ng-file-change="upload($files)">
+                    <a href="" class="btn btn-blue editUserImagePath" role="button" ng-click="saveImagePath()">Save Image</a>
+                </div>
+                <div class="editUserRole">
+                    <h5>Edit User Role</h5>
+                    <select class="user-roles" name="privilege">
+                        <option ng-repeat="role in userRoles" value="{{ role.id }}">{{ role.privilege }}</option>
+                    </select>
+                    <a href="" class="btn btn-blue user-buttons-save" role="button" ng-click="saveEditsUser()">Save User Role</a>
+                </div>
+                <div class="editUserName">
+                    <h5>Edit User Name</h5>
+                    <input type="text" id="editUserName" name="editUserName" value="">
+                    <a href="" class="btn btn-blue user-buttons-save" role="button" ng-click="saveUserName()">Save User Name</a>
+                </div>
+                <div class="editUserBadge">
+                    <h5>Edit User Badge</h5>
+                    <label for="badge-reader">Badge Reader:</label>
+                    <select id="badge-reader" name="badge-reader">
+                        <option value="{{ cell.name }}" ng-repeat="cell in cells">{{ cell.name }}</option>
+                    </select>
+                    <input type="text" id="badge" name="badge" placeholder="Please Swipe Badge" required>
+                    <a href="" class="btn btn-blue" role="button" ng-click="editUserBadgeNumber()">Edit Badge Number</a>
+                </div>
+                <span class="spacer"></span>
+                <h5>Edit User Permissions</h5>
+                <form>
+                    <div>
+                        <label for="userPermissionsCells">Cell:</label>
+                        <select id="userPermissionsCells" name="userPermissionsCells">
+                            <option ng-repeat="cell in cells" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="userPermissionsParts">Part:</label>
+                        <select id="userPermissionsParts" name="userPermissionsParts">
+                            <option ng-repeat="part in parts | orderBy: 'name'" value="{{ part.id }}">{{ part.name }}</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="hidden" id="userPermissionsID" name="userPermissionsID">
+                        <a href="" class="btn btn-blue" role="button" ng-click="addUserPermission()">Add Permission</a>
+                        <!--<a href="" class="btn btn-red" role="button" ng-click="cancelUserPermission()">Cancel</a>-->
+                    </div>
+                </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Cell Name</th>
+                            <th>Part Number</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="permission in userPermissions">
+                            <td>{{ permission.cell_name }}</td>
+                            <td>{{ permission.part_number }}</td>
+                            <td><a href="" class="btn btn-red" role="button" data="{{ permission.id }}" ng-click="deleteUserPermission(permission.id)">Delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="" class="userPermissionsClose" ng-click="cancelUserPermission()">&times;</a>
+            </div>
+        </div>

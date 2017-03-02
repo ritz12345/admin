@@ -1,0 +1,28 @@
+        <section id="page-id-box-schedule-complete" class="main" boxschedulecompletepageelements>
+
+            <table>
+                <thead>
+                    <th>Cell</th>
+                    <th>Part</th>
+                    <th>Quantity</th>
+                    <th>Completed</th>
+                    <th>Time Completed</th>
+                    <th>Completed By</th>
+                    <th>Activate</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="order in completedOrders">
+                        <td>{{ order.cell_name }}</td>
+                        <td>{{ order.part_name }}</td>
+                        <td>{{ order.quantity }}</td>
+                        <td>{{ order.consumed }}</td>
+                        <td>{{ order.admin_completed_time }}</td>
+                        <td>{{ order.username }}</td>
+                        <td><a href="#" class="btn btn-blue" data="{{ order.id }} {{ order.cell_id }}" ng-click="activateOrder(order.id, order.cell_id)">Activate</a></td>
+                        <td><a href="#" class="btn btn-red" data="{{ order.id }}" ng-click="deleteOrder(order.id)">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>

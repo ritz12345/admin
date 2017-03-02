@@ -1,0 +1,32 @@
+    <div id="page-id-part-relationship" partrelationshippageelements>
+
+        <section class="search-bar">
+            <div>
+                <form>
+                    <label for="search-field">Parent</label>
+                    <input type="search" id="search-field" ng-model="search" placeholder="Part Name" typeahead="part as part.number for part in parts | filter:$viewValue">
+                    <a href="" class="btn btn-white" ng-click="getChildParts()">Search</a>
+                </form>
+            </div>
+        </section>
+
+        <section class="main">
+
+            <section id="part-management">
+                <div id="child-parts">
+                    <h3>Child Parts</h3>
+                    <ul id="child-parts-list">
+                        <li ng-repeat="part in childParts">{{ part.number }} <a href="" class="btn btn-red btn-sm" data="{{ part.id }}" ng-click="removePartRelation(part.id)">&times;</a></li>
+                    </ul>
+                </div>
+                <div id="add-part-to-children">
+                    <label for="add-part-search">Add Part</label>
+                    <input id="add-part-search" type="search" ng-model="search2" placeholder="Search Child Parts" typeahead="part as part.number for part in parts | filter:$viewValue">
+                    <a href="" class="btn btn-blue" ng-click="marryParts()">&plus;</a>
+                </div>
+
+            </section>
+
+        </section>
+
+    </div>

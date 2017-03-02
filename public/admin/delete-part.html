@@ -1,0 +1,23 @@
+        <div id="page-id-delete-part" deletepartpageelements>
+
+            <section id="delete-part-search-bar" class="search-bar">
+                <div>
+                    <form>
+                        <label for="search-field">Search</label>
+                        <input type="search" id="search-field" ng-model="search.number" placeholder="Search Part Number...">
+                    </form>
+                </div>
+            </section>
+
+            <section class="main">
+
+                <section id="remove-parts">
+                    <h3>Search Results</h3>
+                    <ul id="delete-parts-list">
+                        <li ng-repeat="part in parts | filter: search | limitTo: 7">{{ part.number }} <a href="" class="btn btn-red btn-sm" data="{{ part.id }}{{ part.number }}" ng-click="deleteParts(part.id, part.number)">Delete</a></li>
+                    </ul>
+                </section>
+
+            </section>
+
+        </div>

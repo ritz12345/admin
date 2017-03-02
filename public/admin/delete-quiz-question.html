@@ -1,0 +1,113 @@
+        <section id="page-id-delete-quiz" class="main" deletequizquestionpageelements>
+
+            <section class="search-bar">
+                <div>
+                    <form>
+                        <label for="search-field">Search</label>
+                        <input type="search" id="search-field" ng-model="search" placeholder="Search Questions...">
+                    </form>
+                </div>
+            </section>
+
+            <div id="deleteQuizQuestions">
+                <h3>Quiz Questions</h3>
+                <section class="quizQuestionWrapper" ng-repeat="question in questions | filter:search">
+                    <div class="quizQuestionTitle clearfix">
+                        <span class="question_title_clickable">{{ question.question }}</span>
+                        <a href="" class="btn btn-red" role="button" data="{{ question.id }}" ng-click="deleteQuizQuestion(question.id)">Delete</a>
+                        <a href="" class="btn btn-blue editQuestionButton" role="button" data="{{ question.id }}" ng-click="editQuizQuestion(question.id)">Edit</a>
+                        <a href="" class="btn btn-blue viewQuestionInfoButton" role="button">View</a>
+                        <a href="" class="btn btn-blue hideQuestionInfoButton" role="button">Hide</a>
+                    </div>
+                    <div class="quizQuestionInfo clearfix">
+                        <ul>
+                            <li><span>Answer 1</span>: {{ question.answer_1 }}</li>
+                            <li><span>Answer 2</span>: {{ question.answer_2 }}</li>
+                            <li><span>Answer 3</span>: {{ question.answer_3 }}</li>
+                            <li><span>Answer 4</span>: {{ question.answer_4 }}</li>
+                            <li><span>Correct Answer</span>: {{ question.answer_correct }}</li>
+                            <li><span>Category</span>: {{ question.category }}</li>
+                            <li><span>Part Number</span>: {{ question.part_number }}</li>
+                            <li><span>Cell Name</span>: {{ question.cell_name }}</li>
+                        </ul>
+
+                        <div class="questionImage" ng-show="question.image_path">
+                            <div class="zoom-in" oc-modal-open="'{{ question.image_path }}'"><img ng-src="..{{ question.image_path }}" alt="Question Image"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="createQuizQuestions" class="edit">
+                <h3>Edit Quiz Question</h3>
+                <form>
+                    <div>
+                        <label for="editQuizQuestionCategory">Category</label>
+                        <select id="editQuizQuestionCategory" name="editQuizQuestionCategory">
+                            <option value="part-specific">Part-Specific</option>
+                            <option value="cell-safety">Cell Safety</option>
+                            <option value="part-cell-specific">Part-Cell-Specific</option>
+                        </select>
+                    </div>
+                    <div id="showQuizPart">
+                        <label for="editQuizQuestionPart">Part</label>
+                        <select id="editQuizQuestionPart" name="editQuizQuestionPart">
+                            <option ng-repeat="part in parts | orderBy: 'name'" value="{{ part.id }}">{{ part.name }}</option>
+                        </select>
+                    </div>
+                    <div id="showQuizCell">
+                        <label for="editQuizQuestionCell">Cell</label>
+                        <select id="editQuizQuestionCell" name="editQuizQuestionCell">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="editQuizQuestionType">Type</label>
+                        <select id="editQuizQuestionType" name="editQuizQuestionType">
+                            <option value="text">Text</option>
+                            <option value="image">Image</option>
+                        </select>
+                    </div>
+                    <div id="quizQuestionContainer">
+                        <label for="quizQuestion">Question</label>
+                        <input type="text" id="editQuizQuestion" name="editQuizQuestion" required>
+                    </div>
+                    <div id="add-new-question-image">
+                        <input type="hidden" id="quizQuestionImagePath" val="">
+                        <div id="question-image-placeholder"><img src="../images/users/default-user.png"></div>
+                        <input type="file" accept="image/*" id="image" ng-file-select ng-file-change="upload($files)">
+                    </div>
+                    <div>
+                        <label for="editQuizAnswer1">Answer 1</label>
+                        <input type="text" id="editQuizAnswer1" name="editQuizAnswer1" required>
+                    </div>
+                    <div>
+                        <label for="editQuizAnswer2">Answer 2</label>
+                        <input type="text" id="editQuizAnswer2" name="editQuizAnswer2" required>
+                    </div>
+                    <div>
+                        <label for="editQuizAnswer3">Answer 3</label>
+                        <input type="text" id="editQuizAnswer3" name="editQuizAnswer3" required>
+                    </div>
+                    <div>
+                        <label for="editQuizAnswer4">Answer 4</label>
+                        <input type="text" id="editQuizAnswer4" name="editQuizAnswer4" required>
+                    </div>
+                    <div>
+                        <label for="editQuizCorrectAnswer">Correct Answer</label>
+                        <select id="editQuizCorrectAnswer" name="editQuizCorrectAnswer">
+                            <option value="1">Answer 1</option>
+                            <option value="2">Answer 2</option>
+                            <option value="3">Answer 3</option>
+                            <option value="4">Answer 4</option>
+                        </select>
+                    </div>
+                    <div class="add-quiz-question-button edit">
+                        <input id="selectedQuestionID" type="hidden" value="">
+                        <a href="" class="btn btn-blue" ng-click="handleEditQuizQuestionSubmit()">Save Quiz Question</button>
+                        <a href="" class="btn btn-red" ng-click="cancelEditQuizQuestion()">Cancel</a>
+                    </div>
+                </form>
+            </div>
+
+        </section>

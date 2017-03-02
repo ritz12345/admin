@@ -1,0 +1,30 @@
+        <section id="page-id-add-user" class="main" adduserpageelements>
+
+            <form id="add-new-user">
+                <div id="add-new-user-image">
+                    <div id="user-image-placeholder"><img src="../images/users/default-user.png"></div>
+                    <input type="file" accept="image/*" id="image" ng-file-select ng-file-change="upload($files)">
+                </div>
+                <div id="add-new-user-name">
+                    <input type="text" id="username" name="username" placeholder="User Name" required>
+                </div>
+                <div id="add-new-user-badge">
+                    <h4>Badge</h4>
+                    <label for="badge-reader">Badge Reader:</label>
+                    <select id="badge-reader" name="badge-reader">
+                        <option value="{{ cell.name }}" ng-repeat="cell in cells">{{ cell.name }}</option>
+                    </select>
+                    <p class="badgeReadFromDB"></p>
+                    <input type="text" id="badge" name="badge" placeholder="Please Swipe Badge" required>
+					<a href="" class="btn btn-blue" role="button" ng-click="addUserBadgeNumber()">Use Badge Number</a>
+                </div>
+                <div id="add-new-user-role">
+                    <label for="privilege">User Role</label>
+                    <select id="privilege" name="privilege">
+                        <option ng-repeat="role in userRoles" value="{{ role.id }}">{{ role.privilege }}</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn btn-submit" ng-click="handleAddUserSubmit()" value="Save">
+            </form>
+
+        </section>

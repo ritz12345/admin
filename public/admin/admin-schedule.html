@@ -1,0 +1,79 @@
+        <section id="page-id-admin-schedule" class="main" adminschedulepageelements>
+
+            <section id="add-box-schedule">
+                <h3>Add Box Schedule</h3>
+                <form ng-submit="handleBoxScheduleSubmit()">
+                    <div>
+                        <label class="thin-label" for="box-part">Part</label>
+                        <select id="box-part" name="box-part">
+                            <option ng-repeat="part in parentParts | orderBy:'name'" value="{{ part.id }}">{{ part.name }}</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="wide-label" for="box-quantity">Quantity</label>
+                        <input type="number" id="box-quantity" name="box-quantity" placeholder="Box Quantity" required>
+                    </div>
+                    
+                    <div>
+                        <label class="thin-label" for="box-cell">Cell</label>
+                        <select id="box-cell" name="box-cell">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="wide-label" for="box-comment">Comment</label>
+                        <input type="text" id="box-comment" name="box-comment" placeholder="Box Comment">
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="btn btn-blue">Add Box Schedule</button>
+                    </div>
+                </form>
+                <span class="spacer"></span>
+            </section>
+
+            <section class="search-bar">
+                <div>
+                    <form>
+                        <label for="cellSelect">Viewing Cell:</label>
+                        <select name="cellSelect" id="cellSelect">
+                            <option ng-repeat="cell in cellInfo" value="{{ cell.id }}">{{ cell.name }}</option>
+                        </select>
+                    </form>
+                </div>
+            </section>
+
+            <section id="box-schedule">
+                <div id="box-{{ box.id }}" data-boxid="{{box.id}}" class="boxContainer" ng-repeat="box in cellSchedule">
+                    <div class="sortable-handle"><img src="/images/arrow.svg" alt="sortable handle"></div>
+                    <h3>{{ box.cell_name }}: {{ box.name }}</h3>
+                    <span class="box-comment-display">{{ box.comment }}</span>
+                    <input type="text" name="boxComment" class="box-comment-edit"/>
+                    <a href="" class="btn btn-grey adminEditComment" role="button" data="{{ box.id }}" ng-click="adminEditComment(box.id)">Edit Comment</a>
+                    <a href="" class="btn btn-grey adminAddComment" role="button" data="{{ box.id }}" ng-click="adminAddComment(box.id)">Add Comment</a>
+                    <a href="" class="btn btn-grey adminSaveComment" role="button" data="{{ box.id }}" ng-click="adminSaveComment(box.id)">Save Comment</a>
+
+                    <section class="box-schedule-user">
+                        <div>
+                            <span class="box-schedule-box completed" ng-repeat="n in range(1, box.consumed)"></span>
+                            <span class="box-schedule-box" ng-repeat="n in range(box.consumed + 1, box.quantity)"></span>
+                        </div>
+                        <div id="box-schedule-completed">
+                            <h4>Completed</h4>
+                            <span class="box-consumed">{{ box.consumed }}</span> of <span class="box-quantity">{{ box.quantity }}</span>
+                        </div>
+                    </section>
+                    <section class="box-schedule-admin">
+                        <div>
+                            <a href="" class="btn btn-grey" role="button" data="{{ box.id }}" ng-click="adminAddBox(box.id)">&plus;</a>
+                            <a href="" class="btn btn-grey" role="button" data="{{ box.id }} {{ box.consumed }}" ng-click="adminRemoveBox(box.id, box.consumed, box.quantity)">&minus;</a>
+                            <a href="" class="btn btn-blue adminCompleteBox" role="button" data="{{ box.id }}" ng-click="adminCompleteBox(box.id)">Complete Order</a>
+                        </div>
+                    </section>
+                    <span class="spacer"></span>
+                </div>
+            </section>
+
+        </section>

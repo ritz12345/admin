@@ -1,0 +1,35 @@
+        <section id="page-id-manage-boundary-samples" class="main" manageboundarysamplespageelements>
+
+            <div class="selectCellContainer">
+                <h3>Step One</h3>
+                <label for="workCell">Choose Cell:</label>
+                <select id="workCell" name="workCell">
+                    <option ng-repeat="cell in cells" value="{{ cell.name }}">{{ cell.name }}</option>
+                </select>
+            </div>
+            <div class="selectPartContainer">
+                <h3>Step Two</h3>
+                <label for="workPart">Choose Part:</label>
+                <select id="workPart" name="workPart">
+                    <option ng-repeat="part in parts" value="{{ part.name }}">{{ part.name }}</option>
+                </select>
+            </div>
+            <div class="fileUploadContainer">
+                <h3>Step Three</h3>
+                <div ng-file-drop ng-file-select ng-model="files" class="drop-box" drag-over-class="dragover" ng-multiple="true" allow-dir="false" accept="image/*">
+                    Drop Images here or click to upload.
+                </div>
+                <div ng-no-file-drop>File Drag/Drop is not supported for this browser.</div>
+            </div>
+
+            <div class="fileListContainer">
+                <h3>Files</h3>
+                <ul class="filesContainer clearfix">
+                    <li class="file" ng-repeat="image in images" id="{{ image.id }}">
+                        <span class="zoom-in" oc-modal-open="'{{ image.image_path }}'"><img ng-src="{{ image.image_path }}" alt="Work Instruction"></span>
+                        <a href="" class="file-delete" data="{{ image.id }}" ng-click="deleteImage(image.id)">&times;</span>
+                    </li>
+                </ul>
+            </div>
+
+        </section>

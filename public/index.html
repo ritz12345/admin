@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html ng-app="hutchinsonApp">
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="apple-touch-icon" href="images/icon.png">
+
+    <title>Hutchinson Smart Plant</title>
+
+    <!-- STYLES -->
+    <!-- <link rel="stylesheet" href="css/reveal.css"> -->
+    <link rel="stylesheet" href="css/oc-modal.full.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- SCRIPTS -->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- <script src="js/jquery.min.js"></script><! load jquery --> -->
+    <script src="js/angular.js"></script><!-- load angular -->
+    <script src="js/angular-route.js"></script>
+    <script src="js/angular-file-upload.js"></script>
+    <script src="js/ui-bootstrap-custom-tpls-0.10.0.min.js"></script>
+    <script src="js/jquery.knob.js"></script>
+    <script src="js/md5.js"></script>
+    <script src="js/oc-modal.js"></script>
+    <!-- <script src="js/jquery-ui.min.js"></script> -->
+    <script src="js/jquery.datetimepicker.js"></script>
+    <script src="js/chart.min.js"></script>
+    <script src="js/core.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <nav id="admin-navigation-dual" class="fixed-top">
+                <div class="logo">
+                    <a href=""><img src="images/logo-historique.jpg" alt="Logo"></a>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="admin-dashboard.html">Dashboard</a></li><!--
+                    --><li>
+                        <a href="#">Process</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item-work-instructions">
+                                <a href="work-instruction-management.html">Work Instructions</a>
+                                <ul class="inner-sub-menu">
+                                    <li><a href="create-work-instructions.html">Modify</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-tech-process-verification">
+                                <a href="process-verification-management.html">Tech Process Verification</a>
+                                <ul class="inner-sub-menu">
+                                    <li><a href="create-process-verification.html">Modify</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-operator-process-verification">
+                                <a href="operator-process-verification-management.html">Operator Process Verification</a>
+                                <ul class="inner-sub-menu">
+                                    <li><a href="create-operator-process-verification.html">Modify</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li><!--
+                    --><li>
+                        <a href="#">Production</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item-cell-schedule">
+                                <a href="admin-schedule.html">Box Schedule</a>
+                                <ul class="inner-sub-menu">
+                                    <li><a href="admin-schedule.html">View</a></li>
+                                    <li><a href="box-schedule-complete.html">Completed Orders</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-quality-alerts">
+                                <a href="quality-alerts.html">Quality Alerts</a>
+                                <ul class="inner-sub-menu">
+                                    <li><a href="create-quality-alert.html">Create</a></li>
+                                    <li><a href="delete-quality-alert.html">Modify</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-boundary-samples">
+                                <a href="boundary-sample-management.html">Boundary Samples</a>
+                                <ul class="inner-sub-menu">
+                                    <li><a href="manage-boundary-samples.html">Modify</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-quiz-management">
+                                <a href="quiz-management.html">Quiz Management</a>
+                                <ul class="inner-sub-menu">
+                                    <li><a href="create-quiz-question.html">Create</a></li>
+                                    <li><a href="delete-quiz-question.html">Modify</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-downtime">
+                                <a href="view-downtime-reasons.html">Downtime Reasons</a>
+                                <ul class="inner-sub-menu">
+                                    <li><a href="view-downtime-reasons.html">View</a></li>
+                                    <li><a href="create-downtime-reasons.html">Modify</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-historian-data">
+                                <a href="historian-data.html">Historian Data</a>
+                            </li>
+                        </ul>
+                    </li><!--
+                    --><li class="menu-item-part-management">
+                        <a href="part-management.html">Parts</a>
+                        <ul class="sub-menu">
+                            <li><a href="create-part.html">Create</a></li>
+                            <li><a href="edit-part.html">Edit</a></li>
+                            <li><a href="delete-part.html">Delete</a></li>
+							<li><a href="part-rate.html">Part Hourly Rate</a></li>
+                            <li><a href="part-relationship.html">Part Relationships</a></li>
+                        </ul>
+                    </li><!--
+                    --><li class="menu-item-user-management">
+                        <a href="user-management.html">Users</a>
+                        <ul class="sub-menu">
+                            <li><a href="add-user.html">Create</a></li>
+                            <li><a href="user-roles.html">Edit</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div id="page-header" class="page-header">
+                <section class="user-logged-in">
+                    <!-- <div class="user-image">
+                        <img src="" alt="">
+                    </div> -->
+                    <div class="user-information">
+                        <p class="user-name"></p>
+                        <p class="user-position">Logged In</p>
+                    </div>
+                </section>
+                <section class="page-title">
+                    <h2>Part Management</h2>
+                </section>
+                <section class="log-button" ng-controller="mainController">
+                    <a href="../index.html" class="btn btn-default" ng-click="logout()">Logout</a>
+                </section>
+            </div>
+            <section id="main-page-header" class="fixed-bottom">
+                <div class="logo">
+                    <a href=""><img src="images/logo-historique.jpg" alt="Logo"></a>
+                </div>
+                <div class="page-header">
+                    <section class="user-logged-in">
+                        <!-- <div class="user-image">
+                            <img src="" alt="">
+                        </div> -->
+                        <div class="user-information">
+                            <p class="user-name"></p>
+                            <p class="user-position">Logged In</p>
+                        </div>
+                        <section class="log-button" ng-controller="mainController">
+                            <a href="../index.html" class="btn btn-white" ng-click="logout()">Logout</a>
+                        </section>
+                    </section>
+                </div>
+                <div class="startup-section">
+                    <a href="admin-dashboard.html" class="btn btn-white btn-lg">Startup</a>
+                    <h3>Recent Users:</h3>
+                    <p>Joe Smith</p>
+                    <p>James Williams</p>
+                </div>
+            </section>
+        </header>
+
+        <div id="app-notifications">
+            <p></p>
+        </div>
+
+        <div id="app-container" ng-view>
+
+
+
+        </div>
+
+    </div>
+    <script src="js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+</body>
+</html>

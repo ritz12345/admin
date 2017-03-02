@@ -1,0 +1,54 @@
+        <section id="page-id-edit-part" class="main" editpartpageelements>
+
+            <div class="editPartList">
+                <section class="search-bar">
+                    <div>
+                        <form>
+                            <label for="search-field">Search</label>
+                            <input type="search" id="search-field" ng-model="search" placeholder="Search Parts...">
+                        </form>
+                    </div>
+                </section>
+
+                <div id="edit-parts">
+                    <h3>Edit Parts</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Part Number</th>
+                                <th>Description</th>
+                                <th>Edit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="part-{{ part.id }}" ng-repeat="part in parts | filter:search">
+                                <td>{{ part.number }}</td>
+                                <td>{{ part.desc }}</td>
+                                <td><a href="" class="btn btn-blue" data="{{ part.id }}" ng-click="showEditPart(part.id)">Edit</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="editPartRow">
+                <h3>Edit Part</h3>
+                <form id="edit-part">
+                    <div>
+                        <label>Part Number</label>
+                        <input id="partNumber" name="partNumber" type="text" placeholder="Part #" value="">
+                    </div>
+                    <div>
+                        <label>Part Description</label>
+                        <input id="partDescription" name="partDescription" type="text" placeholder="Enter Part Description" value="">
+                    </div>
+                    <p>
+                        <input type="hidden" class="hiddenPartNumber" val="">
+                        <a href="" class="btn btn-red" ng-click="cancelEditPart()">Cancel</a>
+                        <a href="" class="btn btn-default" id="btnEditPart" role="button" ng-click="editPart()">Save Part</a>
+                    </p>
+
+                </form>
+            </div>
+
+        </section>
