@@ -103,7 +103,7 @@ $( document ).ready(function(){
 					}
 				}
 				console.log(layout);
-				$("#timeline").append("<input type='range' id='fade' value='0' min='0' max='300' step='1'> </input>")
+				$("#timeline").append("<input type='range' id='fade' value='0' min='0' max='730' step='1'> </input>")
 				$("input[type=range]").on("input",function(){
 					var a= parseFloat($("#fade").val());
 				// if(a==0){$("#datebox").append(date_value[0]);}
