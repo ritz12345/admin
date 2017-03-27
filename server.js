@@ -1870,7 +1870,7 @@ conn.query(sql, [values], function(err) {
      );
     
 });
-app.get('/get_layout_data', (req, res) => {
+app.get('/get_layout_data', function(req, res) {
     var db;
     db = mysql.createConnection({
         host     : '172.24.253.4',
@@ -1885,7 +1885,7 @@ app.get('/get_layout_data', (req, res) => {
         if (err) throw err;
         res.send(JSON.stringify(result));  
     });
-})
+});
 
 
 
